@@ -1,0 +1,42 @@
+.jumbotron {
+    background-color: darkblue;
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+}
+
+#instruction {
+ background-color: rgb(7, 151, 241);
+ color: azure;
+ padding: 30px;
+ 
+
+}
+
+#winningNumber {
+    background-color: rgb(7, 151, 241);
+    color: azure;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+#scs {
+     background-color: rgb(7, 151, 241);
+    color: azure;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    
+}
+#images {
+    
+   
+}
+
+#total {
+    background-color: rgb(7, 151, 241);
+    color: azure;
+    padding: 30px;
+    margin: 10px;
+}

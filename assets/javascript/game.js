@@ -1,12 +1,15 @@
 // 1. create varribles
-    var winningNumber = "";
-    var totalScore = "";
-    var crystal1 = "";
-    var crystal2 = "";
-    var crystal3 = "";
-    var crystal4 = "";
-    var wins = 0;
-    var losses = 0;
+var crystal1 = 0;
+var crystal2 = 0;
+var crystal3 = 0;
+var crystal4 = 0;
+
+var winningNumber = 0;
+var totalScore = 0;
+
+var wins = 0;
+var losses = 0;
+    
     
 
 // 2. generate winning number
@@ -20,6 +23,19 @@
 // 5. update game
 
 // 6. capture user input
+
+$("#red").click(function(){
+    alert("12");
+});
+$("#white").click(function(){
+    alert("10");
+});
+$("#purple").click(function(){
+    alert("1");
+});
+$("#green").click(function(){
+    alert("3");
+});
 
 // 7. determine if win or lose 
 

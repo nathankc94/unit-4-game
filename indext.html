@@ -14,47 +14,50 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-        <h1>
-            CrystalsCollector!
-        </h1> <!-- close h1 row-->
-    </div>
-        <div id="instruction" class="row">
-         <ul>
-           <li> You will be given a random number at the start of the game.</li>
-           <li>There are four crystals below. By clicking on a crystal you will ass a specific amount of points to your total score. </li>
-           <li>You win the game by mathcing your total score to random number, you lose the game if yout total score goes above the random number. </li>
-           <li>The value of each crystal is hidden from you until you click on it.  </li>
-           <li>Each time when the game starts, the game will change the values of each crystal.</li>
-        </ul>
-        </div><!-- close instruction content row -->
-        <div  class="row">
-            <div class="col-md-4" id="winningNumber">00</div>
-            <div id="scs" class="col-md-4">
-            <div class="row" id="wins">Win:</div>
-            <div class="row" id="losses">Losees:</div>
+            <h1>
+                CrystalsCollector!
+            </h1> <!-- close h1 row-->
         </div>
-            
-            
+        <div id="instruction" class="row">
+            <ul>
+                <li> You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below. By clicking on a crystal you will ass a specific amount of points to
+                    your total score. </li>
+                <li>You win the game by mathcing your total score to random number, you lose the game if yout total
+                    score goes above the random number. </li>
+                <li>The value of each crystal is hidden from you until you click on it. </li>
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            </ul>
+        </div><!-- close instruction content row -->
+        <div class="row">
+            <h1 class="col-md-4" id="targetNumber"></h1>
+            <div id="scs" class="col-md-4">
+                <div class="row">Win:</div>
+                <div class="row" id="wins">0</div>
+                <div class="row">Losess:</div>
+                <div class="row" id="losses">0</div>
+            </div>
+
+
         </div> <!-- close scores row -->
         <div id="images" class="row">
-            <img src="assets/images/iconfinder_beryl-manager_6266.png" alt="" id="red">
-            <img src="assets/images/iconfinder_Quartz_crystal_127307.png" alt="" id="white">
-            <img src="assets/images/iconfinder_diamond_gem_ruby_66340.png" alt="" id="purple">
-            <img src="assets/images/iconfinder_emerald-theme-manager_6296.png" alt="" id="green">
-            
+            <img src="assets/images/iconfinder_beryl-manager_6266.png" alt="" id="crystal1">
+            <img src="assets/images/iconfinder_Quartz_crystal_127307.png" alt="" id="crystal2">
+            <img src="assets/images/iconfinder_diamond_gem_ruby_66340.png" alt="" id="crystal3">
+            <img src="assets/images/iconfinder_emerald-theme-manager_6296.png" alt="" id="crystal4">
+
         </div> <!-- close crystals -->
 
-        
-       
-        <div id="total" class="row" id="totalScore">
-         <h1>Your total score is:</h1>
-           <h1>90</h1>
+
+
+        <div id="total" class="row">
+            <h1>Your total score is :</h1>
+            <h1 id="totalScore"></h1>
         </div> <!-- close total score -->
-   
-        
-        
+
     </div> <!-- close container -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="assets/javascript/game.js" type="text/javascript"></script>
 </body>

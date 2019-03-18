@@ -13,7 +13,7 @@
 
 }
 
-#winningNumber {
+#targetNumber {
     background-color: rgb(7, 151, 241);
     color: azure;
     padding: 30px;
@@ -29,10 +29,7 @@
     margin: 10px;
     
 }
-#images {
-    
-   
-}
+
 
 #total {
     background-color: rgb(7, 151, 241);

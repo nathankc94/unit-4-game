@@ -1,5 +1,5 @@
 
-$(document).ready(() => {
+
     // 1. create varribles //////////////////////////////
 
     var crystal1 = Math.floor(Math.random() * 12) + 1;;
@@ -104,5 +104,5 @@ $(document).ready(() => {
     }
 
 
-});
+
 

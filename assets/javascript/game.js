@@ -18,11 +18,29 @@ var losses = 0;
 
 // 3. generate crystals value
 
-// 4.reset game
+// 4.start game
+function getRandom (min, max){
+ return Math.floor(Math.random() * (max - min + 1)) + min; 
+}
+
+var generateNums = function (){
+    var totalScore = 0; 
+    winningNumber = getRandom.apply(19, 120);
+
+    crystal1 = getRandom(1,12);
+    crystal2 = getRandom(1,12);
+    crystal3 = getRandom(1,12);
+    crystal4 = getRandom(1,12); 
+
+    console.log(winningNumber); 
+    console.log(crystal1); 
+    console.log(crystal2); 
+};
 
 // 5. update game
 
 // 6. capture user input
+// startGame();
 
 $("#red").click(function(){
     alert("12");

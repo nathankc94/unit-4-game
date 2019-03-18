@@ -2,10 +2,10 @@
 
     // 1. create varribles //////////////////////////////
 
-    var crystal1 = Math.floor(Math.random() * 12) + 1;;
-    var crystal2 = Math.floor(Math.random() * 12) + 1;;
-    var crystal3 = Math.floor(Math.random() * 12) + 1;;
-    var crystal4 = Math.floor(Math.random() * 12) + 1;;
+    var crystal1 = Math.floor(Math.random() * 12) + 1;
+    var crystal2 = Math.floor(Math.random() * 12) + 1;
+    var crystal3 = Math.floor(Math.random() * 12) + 1;
+    var crystal4 = Math.floor(Math.random() * 12) + 1;
 
     var winningNumber = Math.floor(Math.random() * ((120 - 19) + 1) + 19);
     $("#targetNumber").html(winningNumber);
